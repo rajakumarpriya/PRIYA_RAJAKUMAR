@@ -1,0 +1,36 @@
+"category":"Action",
+"price":"400",
+"auhtor":"Rajakumar",
+"auhtorid":"01",
+"publisher":"Rani comics",
+"published_date":"02-06-1976",
+"chapter":"Fight",
+"active_status":"TRUE"
+
+http://localhost:9021/addBooks [{},{}] POST
+http://localhost:9021/addBook {}  POST
+
+[{
+     "title":"Hit",
+  "category":"Action",
+"price":"400",
+"auhtor":"Rani",
+"auhtorid":"02",
+"publisher":"Rani comics",
+"published_date":"02-06-1976",
+"chapter":"Fight",
+"active_status":"FALSE"
+}
+,{
+     "title":"Hit",
+  "category":"Romantic",
+"price":"400",
+"auhtor":"PRIYA",
+"auhtorid":"03",
+"publisher":"Rani comics",
+"published_date":"02-06-1996",
+"chapter":"Love",
+"active_status":"TRUE"
+}]
+
+http://localhost:9021/books {}  GET
